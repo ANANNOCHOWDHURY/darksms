@@ -79,7 +79,7 @@ def send_loop():
 # =========================
 
 sio.connect(
-    "http://YOUR_SERVER_IP:5000"
+    "https://darksms.onrender.com"
 )
 
 thread = threading.Thread(
